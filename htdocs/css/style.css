@@ -1,0 +1,57 @@
+* {
+    font-family: "Amaranth", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+a {
+    color: #1D8EB5;
+    text-decoration: none;
+    -webkit-transition: color .3s ease-in; /*safari and chrome */
+    -moz-transition: color .3s ease-in; /* firefox */
+    -o-transition: color .3s ease-in; /* opera */
+    transition: all .3s ease-in;
+}
+
+a:hover {
+    color: #666;
+}
+
+main {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul > li {
+    padding-bottom: 0.5rem;
+}
+
+ul > li > strong {
+    display: inline-block;
+    min-width: 15rem;
+}
+
+@media only screen and (max-width: 515px) {
+    ul > li {
+        padding-bottom: 1rem;
+    }
+
+    ul > li > strong {
+        padding-bottom: .1rem;
+        display: block;
+    }
+}
