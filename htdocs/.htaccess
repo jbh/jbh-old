@@ -1,0 +1,7 @@
+
+    RewriteEngine on
+    # Force non-www.
+    RewriteCond %{HTTP_HOST} ^www\.jbh\.io [NC]
+    # Redirect old resume subdomain.
+    RewriteCond %{HTTP_HOST} ^resume\.jbh\.io [NC]
+    RewriteRule ^(.*)$ http://jbh.io/$1 [L,R=301]
