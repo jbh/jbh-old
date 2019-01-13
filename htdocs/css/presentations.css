@@ -44,6 +44,14 @@ main section {
     margin-bottom: 0;
 }
 
+.list-group-item h5 {
+    margin-bottom: 0;
+}
+
+.list-group-item p.tags {
+    margin-bottom: 10px;
+}
+
 #mc_embed_signup {
     max-width: 500px;
     margin: 0 auto;
